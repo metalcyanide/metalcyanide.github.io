@@ -1,0 +1,11 @@
+{{ range hugo.Data.publications }}
+<div class="mb-6">
+  <a href="{{ .paper }}" class="text-lg font-semibold text-primary-700 dark:text-primary-400">{{ .title }}</a><br />
+  <span>{{ .authors | markdownify }}</span><br />
+  <em class="text-sm text-neutral-500 dark:text-neutral-400">{{ .venue_full }}, {{ .year }}</em><br />
+  <span class="text-xs font-semibold rounded-md border border-neutral-300 dark:border-neutral-600 px-1 py-[1px]">{{ .venue }}</span>
+  <a class="text-sm" href="{{ .paper }}">[Paper]</a>
+  {{ with .code }}<a class="text-sm" href="{{ . }}">[Code]</a>{{ end }}
+  {{ with .project }}<a class="text-sm" href="{{ . | relURL }}">[Project]</a>{{ end }}
+</div>
+{{ end }}

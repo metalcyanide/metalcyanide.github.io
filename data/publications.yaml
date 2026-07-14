@@ -1,0 +1,58 @@
+# One entry per publication, newest first. Fields: title, authors, venue
+# (short badge), venue_full, year, paper (URL), project (site path), code
+# (URL, optional), note (optional, e.g. "Preprint").
+- title: Accurate Leakage Speculation for Quantum Error Correction
+  authors: "**Chaithanya Naik Mude**, Swamit Tannu"
+  venue: MICRO 2025
+  venue_full: 58th IEEE/ACM International Symposium on Microarchitecture, Seoul, Korea
+  year: 2025
+  paper: https://dl.acm.org/doi/full/10.1145/3725843.3756053
+  project: /projects/leakage-speculation/
+
+- title: Efficient Measurement of Neutral-Atom Qubits with Matched Filters
+  authors: "Robert M. Kent, Linipun Phuttitarn, **Chaithanya N. Mude**, Swamit Tannu, Mark Saffman, Gregory Lafyatis, Daniel J. Gauthier"
+  venue: Phys. Rev. Applied
+  venue_full: Physical Review Applied
+  year: 2025
+  paper: https://arxiv.org/abs/2510.25982
+  project: /projects/neutral-atom-readout/
+
+- title: Efficient and Scalable Architectures for Multi-level Superconducting Qubit Readout
+  authors: "**Chaithanya Naik Mude**, Satvik Maurya, Benjamin Lienhard, Swamit Tannu"
+  venue: DAC 2025
+  venue_full: 62nd Design Automation Conference, San Francisco, California, USA
+  year: 2025
+  paper: https://ieeexplore.ieee.org/abstract/document/11133314
+  project: /projects/multilevel-readout/
+
+- title: Enabling Fast and Accurate Neutral Atom Readout through Image Denoising
+  authors: "**Chaithanya Naik Mude**, Linipun Phuttitarn, Satvik Maurya, Kunal Sinha, Mark Saffman, Swamit Tannu"
+  venue: Preprint
+  venue_full: arXiv preprint
+  year: 2025
+  paper: https://arxiv.org/abs/2504.08170
+  project: /projects/neutral-atom-readout/
+
+- title: Crosstalk-induced Side Channel Threats in Multi-Tenant NISQ Computers
+  authors: "Navnil Choudhury, **Chaithanya Naik Mude**, Sanjay Das, Preetham Tikkireddi, Swamit Tannu, Kanad Basu"
+  venue: NDSS 2025
+  venue_full: The Network and Distributed System Security Symposium, San Diego, California, USA
+  year: 2025
+  paper: https://www.ndss-symposium.org/wp-content/uploads/2025-2185-paper.pdf
+  project: /projects/crosstalk-security/
+
+- title: Understanding Side-Channel Vulnerabilities in Superconducting Qubit Readout Architectures
+  authors: "Satvik Maurya, **Chaithanya Naik Mude**, Benjamin Lienhard, Swamit Tannu"
+  venue: QCE 2024
+  venue_full: IEEE International Conference on Quantum Computing and Engineering, Montreal, Quebec, Canada
+  year: 2024
+  paper: https://ieeexplore.ieee.org/document/10821389
+  project: /projects/crosstalk-security/
+
+- title: Scaling Qubit Readout with Hardware Efficient Machine Learning Architectures
+  authors: "Satvik Maurya, **Chaithanya Naik Mude**, William D. Oliver, Benjamin Lienhard, Swamit Tannu"
+  venue: ISCA 2023
+  venue_full: 50th International Symposium on Computer Architecture, Orlando, Florida, USA
+  year: 2023
+  paper: https://dl.acm.org/doi/abs/10.1145/3579371.3589042
+  project: /projects/multilevel-readout/

@@ -1,0 +1,20 @@
+locale = "en"
+label = "English"
+title = "Chaithanya Naik Mude"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+
+[params.author]
+  name = "Chaithanya Naik Mude"
+  headline = "PhD Student · Computer Sciences · University of Wisconsin–Madison"
+  bio = "Quantum computing, quantum error correction, error mitigation, reinforcement learning, and quantum synthesis."
+  links = [
+    { email = "mailto:cnaik@cs.wisc.edu" },
+    { github = "https://github.com/metalcyanide" },
+    { linkedin = "https://www.linkedin.com/in/chaithanya-naik" },
+    { "google-scholar" = "https://scholar.google.com/citations?user=NkgS_j4AAAAJ&hl=en" },
+  ]
